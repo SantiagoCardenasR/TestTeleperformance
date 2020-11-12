@@ -1,0 +1,60 @@
+.deleteUser {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.deleteUser > h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.deleteUser__form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.deleteUser__formItem {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.deleteUser__formItem > p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.deleteUser__input {
+    background-color: #a2a0a5;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.deleteUser__creationButton {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #D74177, #FFE98A);
+}
+
+.deleteUser__backButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #38ADAE;
+}

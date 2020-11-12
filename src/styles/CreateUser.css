@@ -1,0 +1,60 @@
+.createUser {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.createUser > h1 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.createUser__form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.createUser__formItem {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.createUser__formItem > p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.createUser__input {
+    background-color: #a2a0a5;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    height: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.createUser__creationButton {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-image: linear-gradient(to bottom, #D74177, #FFE98A);
+}
+
+.createUser__backButton {
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #38ADAE;
+}
